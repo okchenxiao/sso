@@ -8,9 +8,9 @@
 
 namespace app\controller;
 
-use think\cache\driver\Redis;
+use think\Controller;
 
-class User extends BasicController
+class User extends Controller
 {
     /**
      * @var \app\Model\User

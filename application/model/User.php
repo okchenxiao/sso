@@ -8,9 +8,10 @@
 
 namespace app\Model;
 
+use think\Model;
 use think\Request;
 
-class User extends BasicModel
+class User extends Model
 {
     //用户登录
     public function login($data)

@@ -9,7 +9,9 @@
 namespace app\Model;
 
 
-class Log extends BasicModel
+use think\Model;
+
+class Log extends Model
 {
     public function getOne()
     {
